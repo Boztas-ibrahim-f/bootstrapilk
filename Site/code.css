@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html body {
+    height: 100%;
+    background-color: #E9ECEF;
+    
+}
+
+/* üst Başlık alanı burası */
+header {
+    height: 60px;
+    background-color: rgb(43, 40, 40);
+    padding: 10px;
+    
+}
+.top {
+    display: flex;
+    align-items: center;
+}
+.top .one {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.top .one a {
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+
+.top .two {
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top .two a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.top .three {
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top .three a {
+    text-decoration: none;
+    color: rgb(139, 137, 137);
+}
+
+.top .three a:hover {
+    color: white;
+}
+
+.top .four {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top .four a {
+    text-decoration: none;
+    color: rgb(139, 137, 137);
+}
+
+.top .four a:hover {
+    color: white;
+}
+
+
+
+/* Alt liste bölümü */
+.görüntü {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.görüntü .alt {
+    
+    height: 200px;
+}
+
+.alt .orta  {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.başlık {
+    color: red;
+    font-size: 60px;
+}
+
+.alt .metin {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+.cart-body {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    height: 300px;
+}
+
+.cart-body .altlist li {
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Ürünlerimiz Sayfası içindir */
+.container {
+    padding: 10px;
+}
+.row {
+    margin: 5px;
+}
+
+.başlık {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.altbaş {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    height: 500px;
+    
+}
+/* Genel ayarlar bu bölmede */
+ .btn {
+    border-radius: 50%;
+    font-size: large;
+ }
